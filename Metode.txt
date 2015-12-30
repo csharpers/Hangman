@@ -4,3 +4,5 @@ public int[] ProveriUnetoSlovo(char slovo) - vraca niz sa indeksima gde se nalaz
 					da je prvo slovo reci pogodjeno-onda bi 0 bila upisana u vraceni niz
 					i nebi bio siguran da je to nula jer bi i sve ostale vrednosti po
 					defaultu bile 0
+public bool SacuvajRezultat(int brojPogresnihSlova, int vreme, string ime) - cuva rezultat u bazu podataka
+					mozda ce se morati promeniti tip za vreme
