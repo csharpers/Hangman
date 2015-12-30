@@ -95,7 +95,7 @@ namespace HangmanServis
             }
         }
 
-        List<Rezultat> IspisiSveRezultate(int izbor)
+        public List<Rezultat> IspisiSveRezultate(int izbor)
         {
             List<Rezultat> rezultati = new List<Rezultat>();
             string naredba = " ";
