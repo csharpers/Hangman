@@ -6,3 +6,8 @@ public int[] ProveriUnetoSlovo(char slovo) - vraca niz sa indeksima gde se nalaz
 					defaultu bile 0
 public bool SacuvajRezultat(int brojPogresnihSlova, int vreme, string ime) - cuva rezultat u bazu podataka
 					mozda ce se morati promeniti tip za vreme
+public List<Rezultat> IspisiSveRezultate(int izbor) - vraca listu objekata klase Rezultat(int vreme, int 					brojPogresnihSlova, string ime), kao parametar saljes 1,2 ili 3
+					1-svi rezultati
+					2-najboljih 10 poredjanih po pogresnim slovima
+					3-najboljih 10 poredjanih po vremenu
+					ako posaljes nesto drugo vratice ti null
