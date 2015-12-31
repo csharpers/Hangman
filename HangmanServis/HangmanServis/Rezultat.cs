@@ -9,7 +9,6 @@ namespace HangmanServis
         private string ime;
         private int brojPogresnihSlova, vreme;
 
-        [DataMember]
         public Rezultat(string ime, int brojPogresnihSlova, int vreme)
         {
             this.ime = ime;

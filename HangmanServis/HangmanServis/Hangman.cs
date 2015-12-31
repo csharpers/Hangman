@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.ServiceModel;
+using System.ServiceModel.Activation;
 
 namespace HangmanServis
 {
+    [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Required)]
     public class Hangman : IHangman
     {
         private string rec;
